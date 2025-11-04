@@ -1,0 +1,28 @@
+{
+	"name": "wp-boot-example",
+	"version": "0.0.1",
+	"description": "Example project for wp-boot",
+	"author": "Fabian Kaegy",
+	"authorURI": "https://fabian-kaegy.com",
+	"license": "GPL-2.0-or-later",
+	"dependencies": {
+		"@wordpress/env": "^10.34.0"
+	},
+	"scripts": {
+		"start": "wp-build --watch",
+		"build": "wp-build",
+		"wp-env": "wp-env"
+
+	},
+	"wpScript": true,
+	"wpPlugin": {
+		"scriptGlobal": "wpBootExample",
+		"packageNamespace": "wpBootExample",
+		"externalNamespaces": {
+			"wp": {
+				"global": "wp",
+				"handlePrefix": "wordpress"
+			}
+		}
+	}
+}

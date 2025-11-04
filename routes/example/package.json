@@ -1,0 +1,9 @@
+{
+	"route": {
+		"path": "/example"
+	},
+	"dependencies": {
+		"@wordpress/admin-ui": "^1.2.0",
+		"@wordpress/i18n": "^6.7.0"
+	}
+}
