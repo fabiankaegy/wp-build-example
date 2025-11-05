@@ -2,8 +2,8 @@
 /**
  * Plugin Name: WP Boot Example
  * Description: Example project for wp-boot
- * Author: WP Boot
- * Author URI: https://wp-boot.com
+ * Author: Fabian Kaegy
+ * Author URI: https://fabian-kaegy.com
  * Version: 0.0.1
  * Text Domain: wp-boot-example
  * Domain Path: /languages
